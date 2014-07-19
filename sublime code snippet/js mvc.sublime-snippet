@@ -1,0 +1,54 @@
+<snippet>
+	<content><![CDATA[
+	var Model = Backbone.Model.extend({
+	    // idAttribute:"cid",
+	    initialize:function(){
+
+	    },
+	    parse: function(data){
+	        
+	    }
+	});
+
+	var Collection = Backbone.Collection.extend({
+	    
+	    model : Model,
+	    
+	    urlRoot: "",
+	    
+	    url : "",
+	    
+	    initialize: function(){
+	      
+	    },
+	    parse: function(msg){
+
+	    }
+	});
+
+
+	//table view
+	var View = Backbone.View.extend({
+	    
+	    el: "",
+
+	    tagName: "tr",
+	    
+	    events:{
+	        
+	    },
+	    
+	    tpl: _.template(''),
+	    
+	    initialize: function(){
+	    }, 
+	    render: function(){
+	    }
+	});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
